@@ -4,6 +4,6 @@ import org.junit.*;
 public class TestTest {
     @Test
     public void testNot() {
-        assertEquals(false, Testing.not(false));
+        assertEquals(true, Testing.not(false));
     }
 }
